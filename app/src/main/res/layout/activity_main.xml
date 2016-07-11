@@ -10,8 +10,13 @@
     tools:context="poipo.hyosoka.com.svg_tutorial.MainActivity">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:background="@drawable/vec_drawable_example"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
